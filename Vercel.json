@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/brawl/:path*", "destination": "/api/brawl?path=:path*" }
+  ]
+}
